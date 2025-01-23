@@ -8,13 +8,13 @@ int main() {
     scanf("%d", &c);
     
     if (a>b && a>c){
-        printf("%c", a);
+        printf("%d", a);
     }
     else if (b>a && b>c){
-        printf("%c", &b);
+        printf("%d", &b);
     }
     else if (c>a && c>b){
-        printf("%c", c);
+        printf("%d", c);
     }
     return 0;
 }
