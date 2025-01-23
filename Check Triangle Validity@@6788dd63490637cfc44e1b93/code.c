@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &b);
     scanf("%d", &c);
 
-    if ((a > b && a > c) || (b > a && b > c) || (c > a && c > b)){
+    if (a + b > c){
         printf("Valid");
     } else{
         printf("Invalid");
