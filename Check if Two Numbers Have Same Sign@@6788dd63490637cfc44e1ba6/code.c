@@ -11,7 +11,7 @@ int main() {
         printf("Same sign");
     }
     else if (a<0 && b>0 || a>0 && b<0){
-        printf("Different sign")
+        printf("Different sign");
     }
     return 0;
 }
