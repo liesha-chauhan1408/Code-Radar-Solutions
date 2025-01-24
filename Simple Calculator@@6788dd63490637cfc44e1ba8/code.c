@@ -5,7 +5,9 @@ int main() {
     char opt;
     printf("");
     scanf("%d", &a);
+    printf("");
     scanf("%d", &b);
+    printf("");
     scanf("%c", &opt);
 
     if (opt=="+"){
@@ -19,6 +21,8 @@ int main() {
     }
     else if (opt=="/"){
         printf("%d", a/b);
+    } else{
+        printf("error");
     }
     return 0;
 }
