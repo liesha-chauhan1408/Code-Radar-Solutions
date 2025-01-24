@@ -9,13 +9,13 @@ int main() {
     printf("");
     scanf("%d", &c);
 
-    if (a == b == c){
+    if (a == b && b == c){
         printf("Equilateral");
     }
-    else if (a != b != c){
-        printf("Scalene");
-    } else {
+    else if (a != b && b == c || b != a && a == c || c != a && a == b){
         printf("Isosceles");
+    } else if (a != b && b != c) {
+        printf("Scalene");
     }
     return 0;
 }
