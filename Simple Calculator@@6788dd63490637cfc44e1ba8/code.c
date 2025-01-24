@@ -8,16 +8,16 @@ int main() {
     scanf("%d", &b);
     scanf("%c", &opt);
 
-    if (opt=='+'){
+    if (opt=="+"){
         printf("%d", a+b);
     }
-    else if (opt=='-'){
+    else if (opt=="-"){
         printf("%d", a-b);
     }
-    else if (opt=='*'){
+    else if (opt=="*"){
         printf("%d", a*b);
     }
-    else if (opt=='/'){
+    else if (opt=="/"){
         printf("%d", a/b);
     } else {
         printf("error");
