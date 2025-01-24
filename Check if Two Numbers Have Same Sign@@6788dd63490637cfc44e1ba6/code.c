@@ -8,10 +8,10 @@ int main() {
     scanf("%d", &b);
 
     if (a>0 && b>0 || a<0 && b<0){
-        printf("Same sign");
+        printf("Same Sign");
     }
     else if (a<0 && b>0 || a>0 && b<0){
-        printf("Different sign");
+        printf("Different Sign");
     }
     return 0;
 }
