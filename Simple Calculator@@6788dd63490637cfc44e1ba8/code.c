@@ -19,8 +19,6 @@ int main() {
     }
     else if (opt=="/"){
         printf("%d", a/b);
-    } else {
-        printf("error");
     }
     return 0;
 }
