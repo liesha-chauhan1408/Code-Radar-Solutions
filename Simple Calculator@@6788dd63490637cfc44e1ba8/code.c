@@ -3,7 +3,7 @@
 int main() {
     int a, b;
     char opt;
-    
+    printf("");
     scanf("%d", &a);
     printf("");
     scanf("%d", &b);
@@ -12,7 +12,7 @@ int main() {
 
     if (opt=='+'){
         printf("%d", a+b);
-    }
+    } 
     else if (opt=='-'){
         printf("%d", a-b);
     }
@@ -20,9 +20,9 @@ int main() {
         printf("%d", a*b);
     }
     else if (opt=='/'){
-        printf ("%d", a/b);
-    } else{
+        printf("%d", a/b);
+    } else {
         printf("error");
-    } 
+    }
     return 0;
 }
