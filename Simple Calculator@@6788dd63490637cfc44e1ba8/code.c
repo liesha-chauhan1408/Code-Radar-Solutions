@@ -3,7 +3,7 @@
 int main() {
     int a, b;
     char opt;
-    printf("");
+    
     scanf("%d", &a);
     printf("");
     scanf("%d", &b);
