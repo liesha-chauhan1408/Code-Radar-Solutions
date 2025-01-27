@@ -10,19 +10,22 @@ int main() {
     printf("");
     scanf("%c", &opt);
 
-    if (opt=="+"){
+    if (opt=='+'){
         printf("%d", a+b);
     }
-    else if (opt=="-"){
+    else if (opt=='-'){
         printf("%d", a-b);
     }
-    else if (opt=="*"){
+    else if (opt=='*'){
         printf("%d", a*b);
     }
     else if (opt=="/"){
-        printf("%d", a/b);
-    } else{
-        printf("error");
-    }
+        if(b==0){
+            printf("error");
+        }else{
+            printf("%d",a/b);
+        }
+        
+    } 
     return 0;
 }
