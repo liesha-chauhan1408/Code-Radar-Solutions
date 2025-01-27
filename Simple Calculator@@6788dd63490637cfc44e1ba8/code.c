@@ -19,7 +19,7 @@ int main() {
     else if (opt=='*'){
         printf("%d", a*b);
     }
-    else if (opt=="/"){
+    else if (opt=='/'){
         if(b==0){
             printf("error");
         }else{
