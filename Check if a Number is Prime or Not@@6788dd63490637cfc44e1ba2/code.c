@@ -2,6 +2,7 @@
 
 int main() {
     int n, prime;
+    prime=1;
     printf("");
     scanf("%d", &n);
 
