@@ -6,19 +6,19 @@ int main() {
     scanf("%d", &n);
 
     if (n<=1){
-        printf("Not prime");
+        prime=0;
     } else{
-        if (n>1){
-            for (i=2, i*i<=n, i++){
-                if (n%i==0){
-                    printf("Not Prime");
-                } else{
-                    printf("Prime");
-                }
+        for (int i=2; i*i<=a; i++){
+            if (n%i==0){
+                prime=0;
+                break;
             }
-        } else{
-            printf("Not Prime");
         }
+    }
+    if (prime){
+        printf("Prime");
+    } else{
+        printf("Not Prime");
     }
     return 0;
 }
