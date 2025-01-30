@@ -3,12 +3,7 @@
 int main() {
     int a, b;
     char opt;
-    printf("");
-    scanf("%d", &a);
-    printf("");
-    scanf("%d", &b);
-    printf("");
-    scanf("%c", &opt);
+    scanf("%d %d %c", &a &b &opt);
 
     if (opt=='+'){
         printf("%d", a+b);
