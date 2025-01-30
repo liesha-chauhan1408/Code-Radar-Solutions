@@ -20,14 +20,14 @@ int main() {
         printf("%d", a*b);
     }
     else if (opt=='/'){
-        if(b=="0"){
+        if(b==0){
             printf("error");
         }
         else{
             printf("%d",a/b);
         }
     else{
-        printf("error");
+        printf("error",a/b);
     }
     }
     return 0;
