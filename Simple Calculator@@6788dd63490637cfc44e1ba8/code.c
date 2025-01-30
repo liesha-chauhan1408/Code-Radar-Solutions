@@ -26,9 +26,6 @@ int main() {
         else{
             printf("%d",a/b);
         }
-    else{
-        printf("error",a/b);
-    }
     }
     return 0;
 }
