@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main(){
     char cht;
-    printf("");
     scanf("%c", &cht);
 
     if((cht>='A' && cht<='Z') || (cht>='a' && cht<='z')){
