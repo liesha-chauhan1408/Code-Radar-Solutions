@@ -3,6 +3,8 @@
 int main() {
     int a, b;
     char opt;
+    float divs;
+    divs=a/b;
     scanf("%d %d %c", &a &b &opt);
 
     if (opt=='+'){
