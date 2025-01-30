@@ -6,15 +6,16 @@ int main() {
     scanf("%c", &cht);
 
     if(cht>='A' && cht<='Z' || cht>='a' && cht<='z'){
-        if(cht=='a' || cht=='e' || cht=='i' || cht=='o' || cht=='u'){
+        if(cht=='a' || cht=='e' || cht=='i' || cht=='o' || cht=='u' || cht=='A' || cht=='E' || cht=='I' || cht=='O' cht=='U'){
             printf("Vowel");
         } else{
             printf("Consonant");
         }
     }
-    else if (cht>=1 && cht<=9){
+    else if (cht>=0 && cht<=9){
         printf("Digit");
-    } else{
+    } 
+    else{
         printf("Special Character");
     }
     return 0;
