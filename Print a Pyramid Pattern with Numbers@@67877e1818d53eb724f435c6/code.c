@@ -1,17 +1,26 @@
 #include <stdio.h>
 
 int main() {
-    int n, k;
-    scanf("%d", &n);
+    int i, j, space, rows;
 
-    for (int i=1; i<=n; i++){
-        for (int k=1; k<=n-i; k++){
+    // Input from user
+    printf("Enter the number of rows: ");
+    scanf("%d", &rows);
+
+    // Loop for rows
+    for(i = 1; i <= rows; i++) {
+        // Print leading spaces for centering
+        for(space = 1; space <= rows - i; space++) {
             printf(" ");
         }
-        for (int j=1; j<=i; j++){
-            printf("%d ", j)
+
+        // Print numbers in increasing order
+        for(j = 1; j <= i; j++) {
+            printf("%d ", j);
         }
-        printf("\n");
+
+        printf("\n"); // Move to next line after each row
     }
+
     return 0;
 }
