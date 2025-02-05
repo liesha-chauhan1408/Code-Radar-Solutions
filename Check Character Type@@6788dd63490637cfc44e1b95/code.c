@@ -5,7 +5,7 @@ int main(){
     scanf("%c", &cht);
 
     if ((cht>='A' && cht<='Z') || (cht>='a' && cht<='z')){
-        if (cht=='a' || cht=='e' || cht=='i' || cht=='o' || cht=='u' || cht='A' || cht=='E' || cht=='I' || cht=='O' || cht=='U'){
+        if (cht=='a' || cht=='e' || cht=='i' || cht=='o' || cht=='u' || cht=='A' || cht=='E' || cht=='I' || cht=='O' || cht=='U'){
             printf("Vowel");
         } else{
             printf("Consonant");
